@@ -9,10 +9,15 @@
     <h1 id="title"> Survey Form</h1>
     <p id="description"> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
     <form class="" action="index.html" method="post">
-      <input id="name" type="text" name="" value="name" required>
-      <input id="email" type="email" name="" value="email" required>
-      <input id="age" type="number" name="" value="age" required>
-      <input id="name" type="text" name="" value="">
+      <label id="name-label" for="">Your Name</label>
+      <input id="name" type="text" name="" value="name" placeholder="whrite your name" required>
+
+      <label id="email-label" for="">Your email</label>
+      <input id="email" type="email" name="" value="email" placeholder="whrite your email" required>
+
+      <label id="number-label" for="">Your Name</label>
+      <input id="number" type="number" name="" value="age" placeholder="whrite your age"  min="18" max="99" required>
+
     </form>
 
   </body>
